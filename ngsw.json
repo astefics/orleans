@@ -1,0 +1,97 @@
+{
+  "configVersion": 1,
+  "timestamp": 1640246589612,
+  "index": "/orleans/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/orleans/favicon.ico",
+        "/orleans/index.html",
+        "/orleans/main.f885abdb584e6e37.js",
+        "/orleans/manifest.webmanifest",
+        "/orleans/polyfills.77f011bb523f1fb4.js",
+        "/orleans/runtime.6e61e455b71654dc.js",
+        "/orleans/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/orleans/assets/icons/icon-128x128.png",
+        "/orleans/assets/icons/icon-144x144.png",
+        "/orleans/assets/icons/icon-152x152.png",
+        "/orleans/assets/icons/icon-192x192.png",
+        "/orleans/assets/icons/icon-384x384.png",
+        "/orleans/assets/icons/icon-512x512.png",
+        "/orleans/assets/icons/icon-72x72.png",
+        "/orleans/assets/icons/icon-96x96.png",
+        "/orleans/assets/images/404-error.png",
+        "/orleans/assets/images/delete.jpg",
+        "/orleans/assets/images/details.png",
+        "/orleans/assets/images/edit.png",
+        "/orleans/assets/images/eraser.png",
+        "/orleans/assets/images/m2i.png",
+        "/orleans/assets/images/plus.png",
+        "/orleans/assets/images/save.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/orleans/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/orleans/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/orleans/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/orleans/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/orleans/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/orleans/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/orleans/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/orleans/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/orleans/assets/images/404-error.png": "1f4244173d137c2719cdacdf00e64f80a5dce6c8",
+    "/orleans/assets/images/delete.jpg": "7b090fe7a0e7ea6ad8f13f762b504853fd44c04a",
+    "/orleans/assets/images/details.png": "840f2ea3ad6dd155fd8f9c7e442436f2d43a5ee2",
+    "/orleans/assets/images/edit.png": "c8149d3aa67f667cb443640194caf78ef828c926",
+    "/orleans/assets/images/eraser.png": "1876d553adb1fe7fc5e0cedbc710c707293cccc0",
+    "/orleans/assets/images/m2i.png": "cffb9ae135d9639138a5a165f7e267dc3c1a3200",
+    "/orleans/assets/images/plus.png": "9be91b6f110275a8e93093b785072058e4245ed1",
+    "/orleans/assets/images/save.png": "59d74a14da6934820e307d1eef882fa520269ec5",
+    "/orleans/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/orleans/index.html": "047ce24357a9db023db5112e2825d254c3e62e2f",
+    "/orleans/main.f885abdb584e6e37.js": "d16795a8151253372bfaab9245e4a53af050926c",
+    "/orleans/manifest.webmanifest": "2917bbeaa792c82f677862dcbaac379086a26d15",
+    "/orleans/polyfills.77f011bb523f1fb4.js": "2cceb1dbc0bba69edbff844488b02e9096361415",
+    "/orleans/runtime.6e61e455b71654dc.js": "d51d99750a5f4d1532f7feb81e7b2bd104b6e24d",
+    "/orleans/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
